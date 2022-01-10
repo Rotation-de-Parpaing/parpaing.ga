@@ -1,7 +1,8 @@
 body {
-  background-image: url("./bg.jpg");
+  background: no-repeat center fixed #111;
   overflow: hidden;
 }
+
 img {
   position: absolute;
   top: 50%;
