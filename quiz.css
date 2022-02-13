@@ -37,6 +37,10 @@ form {
     margin-right: auto;
     width: 80%;
   }
+
+  img {
+    width: 80%;
+  }
 }
 
 img {
