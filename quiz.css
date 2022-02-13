@@ -53,9 +53,3 @@ img {
     width: 80%;
   }
 }
-
-@media screen and (max-width: 200px) {
-  body {
-    ;
-  }
-}
