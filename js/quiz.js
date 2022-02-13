@@ -11,7 +11,7 @@ function getAnswers() {
           break;
         }
         e++
-        if (e==4) {
+        if (e==5) {
           document.getElementById('q'+(i+1) + "-outer").style.borderColor = "red"
         }
       }
