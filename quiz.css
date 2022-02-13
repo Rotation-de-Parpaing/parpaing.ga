@@ -2,6 +2,7 @@
 
 body {
   background: no-repeat center fixed url("./img/background.jpg");
+  background-size: cover;
   overflow: hidden;
 }
 
@@ -30,7 +31,17 @@ form {
   border-radius: 10px;
 }
 
+img {
+  width: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
 @media screen and (max-width: 768px) {
+  body {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
   form {
     display: block;
     margin-left: auto;
@@ -43,8 +54,8 @@ form {
   }
 }
 
-img {
-  width: 50%;
-  margin-left: 50%;
-  transform: translate(-50%, 0);
+@media screen and (max-width: 200px) {
+  body {
+    ;
+  }
 }
