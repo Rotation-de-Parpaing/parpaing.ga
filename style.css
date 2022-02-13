@@ -2,16 +2,3 @@ body {
   background: no-repeat center fixed #111;
   overflow: hidden;
 }
-
-#iceberg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#pg {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
