@@ -4,7 +4,6 @@ window.onload = function () {
     // Moving direction, starting at'r-b'lower right
     (direction = "r-b"),
     // icon X and Y coordinates, initial 0
-    (background_width = 500);
   (position_x = 0),
     (position_y = 0),
     // Number of collisions, used to calculate background and text color

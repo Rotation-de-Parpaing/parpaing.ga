@@ -13,8 +13,13 @@
       background: url("img/background.jpg") no-repeat center fixed;
       overflow: hidden;
     }
-    #canvas {
-      width: 100vw;
+    #parpaing {
+      width: 10vw;
+    }
+    @media screen and (max-width: 600px) {
+      #parpaing {
+        width: 30vw;
+      }
     }
   </style>
 </head>
@@ -23,7 +28,6 @@
     src="./img/Parpaing.png"
     id="parpaing"
     style="position: absolute"
-    height="500px"
   />
   <script src="./js/index.js"></script>
 </body>
