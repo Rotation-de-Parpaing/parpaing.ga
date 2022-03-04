@@ -1,7 +1,7 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
 body {
-  background: no-repeat center fixed url("./img/background.jpg");
+  background: no-repeat center fixed url("./img/background_new.jpg");
   background-size: cover;
   overflow: hidden;
 }
@@ -25,8 +25,8 @@ form {
 }
 
 .is-bordered {
-  border: 5px rgb(88, 88, 88) solid;
-  background-color: rgb(239, 239, 239);
+  border: 5px black solid;
+  background-color: white;
   padding: 5% 5% 5% 5%;
   border-radius: 10px;
 }

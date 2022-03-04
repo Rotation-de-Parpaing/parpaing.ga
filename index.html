@@ -6,25 +6,40 @@
   />
   <link rel="shortcut icon" href="./img/Parpaing.ico" type="image/x-icon">
   <style>
+    @font-face {
+      font-family: "SQUIDGAME";
+      src: url("fonts/Game\ Of\ Squids.otf"),
+           url("fonts/Game\ Of\ Squids.ttf");
+    }
     * {
       margin: 0;
       padding: 0;
+      font-size: 1.5em;
+      text-align: center;
+      color: white;
+    }
+    h1 {
+      font-family: "SQUIDGAME";
+      margin-top: 1.5em;
     }
     body {
-      background: url("img/background.jpg") no-repeat center fixed;
+      background: url("img/background_new.jpg") no-repeat;
+      background-size: cover;
       overflow: hidden;
     }
     #parpaing {
       width: 10vw;
+      z-index: -1;
     }
     @media screen and (max-width: 600px) {
       #parpaing {
         width: 30vw;
       }
     }
-  </style>
+  </style> 
 </head>
 <body>
+  <h1>Rotation de Parpaing</h1>
   <img
     src="./img/Parpaing.png"
     id="parpaing"
